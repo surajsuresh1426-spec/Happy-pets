@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Paws 🐾</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff8f0;
+            color: #333;
+        }
+        header {
+            background-color: #ff8c00;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ffd39b;
+            padding: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ff4500;
+        }
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        h1, h2, h3 {
+            margin: 10px 0;
+        }
+        .pets {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .pet-card {
+            background-color: #fff3e0;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+            width: 250px;
+        }
+        .pet-card button {
+            background-color: #ff8c00;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .pet-card button:hover {
+            background-color: #ff4500;
+        }
+        footer {
+            background-color: #ff8c00;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        input, textarea {
+            padding: 10px;
+            width: 300px;
+            max-width: 90%;
+            margin: 10px 0;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        form button {
+            background-color: #ff8c00;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        form button:hover {
+            background-color: #ff4500;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Happy Paws 🐾</h1>
+        <p>Give a loving home to a pet in need</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#adopt">Adopt</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h1>Hello, this is Suraj 👋</h1>
+        <p>Welcome to Happy Paws 🐾</p>
+    </section>
+
+    <section id="adopt">
+        <h2>Pets Available for Adoption</h2>
+        <div class="pets">
+            <div class="pet-card">
+                <h3>Dog - Bruno</h3>
+                <p>Friendly 2-year-old Labrador</p>
+                <button>Adopt Me</button>
+            </div>
+            <div class="pet-card">
+                <h3>Cat - Luna</h3>
+                <p>Calm and loving Persian cat</p>
+                <button>Adopt Me</button>
+            </div>
+            <div class="pet-card">
+                <h3>Puppy - Max</h3>
+                <p>Playful Golden Retriever puppy</p>
+                <button>Adopt Me</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Happy Paws is a non-profit pet adoption platform dedicated to rescuing and rehoming animals. We believe every pet deserves love, care, and a forever home.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        © 2026 Happy Paws | Pet Adoption Website
+    </footer>
+
+</body>
+</html>
